@@ -36,6 +36,19 @@ Dimension Tables: Customers, Products, Dates, Geography
 
 The dataset was modeled using a Star Schema for performance and analytical clarity.
 
+In addition to Power BI, the RFM metrics and customer segmentation were also implemented entirely in SQL.
+This demonstrates the ability to perform advanced customer analytics directly at the database level, which is critical for real-world production environments.
+
+The SQL implementation was used to:
+
+Aggregate transactional data at the customer level
+
+Calculate Recency, Frequency, and Monetary metrics
+
+Assign RFM scores (1–5) using quantile-based logic
+
+Classify customers into strategic segments
+
 
 🧠 Analytical Approach
 RFM Scoring
