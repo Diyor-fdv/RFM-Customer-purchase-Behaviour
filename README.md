@@ -4,7 +4,8 @@ This project demonstrates customer behavior analysis and segmentation using the 
 
 The main objective is to identify high-value, at-risk, and potential customers, enabling data-driven strategies for retention, conversion, and revenue growth.
 
-The analysis is based on the Adventure Works sample dataset, commonly used for business intelligence and analytics case studies.
+The analysis is based on the Adventure Works sample dataset, commonly used for business intelligence and analytics case studies
+
 
 🎯 Business Objectives
 
@@ -17,6 +18,7 @@ Detect at-risk customers and design retention strategies
 Convert first-time or low-frequency buyers into loyal customers
 
 Analyze revenue trends across regions and products
+
 
 📂 Dataset
 
@@ -33,6 +35,7 @@ Fact Table: SalesOrderDetail
 Dimension Tables: Customers, Products, Dates, Geography
 
 The dataset was modeled using a Star Schema for performance and analytical clarity.
+
 
 🧠 Analytical Approach
 RFM Scoring
@@ -56,6 +59,9 @@ Top Value	High R, F, M – high revenue & frequent buyers
 Need Retention	High past value but declining engagement
 Need Conversion	New or low-frequency customers with growth potential
 No Action	Low value, infrequent buyers
+
+
+
 📊 Key Metrics
 
 Total Revenue: $20.06M
@@ -72,6 +78,8 @@ Recency, Frequency, Monetary distributions
 
 These KPIs provide business insights on revenue concentration, customer engagement, and purchase patterns.
 
+
+
 🌍 Geographic & Product Analysis
 
 Top Regions: Australia & United Kingdom show strong growth
@@ -82,7 +90,7 @@ High-Revenue Products: Touring Bikes, Road Bikes
 
 Growth Potential Products: Accessories, Helmets
 
-🛠 Power BI Implementation
+Power BI Implementation
 
 Data Modeling: Star Schema
 
@@ -106,17 +114,22 @@ Geographic & product performance charts
 
 Interactivity: Filters, slicers, drill-through pages for detailed customer analysis
 
+
+
 📊 Visualizations
 
-You can include screenshots in GitHub like this:
+Dashboard Overview: RFM pictures/dashboard_overview
 
-Dashboard Overview: images/dashboard_overview.png
+Customer Segmentation Matrix: RFM picture/segmentation
 
-Customer Segmentation Matrix: images/segment_matrix.png
+Top Products & Revenue: RFM picture/tops 
 
-Top Products & Revenue: images/top_products.png
+RFM picture/need_retention
 
-Regional Insights: images/geo_analysis.png
+RFM picture/need_conversation
+
+
+
 
 🎯 Business Recommendations
 
@@ -127,6 +140,8 @@ Need Retention: Reactivation campaigns, geo-specific promotions, personalized di
 Need Conversion: Post-purchase incentives, product bundling, targeted campaigns
 
 No Action: Minimal focus; consider long-term nurturing strategies
+
+
 
 👤 Author
 
@@ -141,4 +156,3 @@ Implement predictive analytics for churn
 
 Add dynamic segmentation based on time-period
 
-Share as portfolio project on LinkedIn & GitHub
